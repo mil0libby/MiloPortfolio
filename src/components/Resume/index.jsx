@@ -11,7 +11,7 @@ import ScrambleText from "../ScrambleText";
 import ResumeCard from "../ResumeCard";
 
 // assets
-import ProfilePic from "../../assets/Images/milo.jpg";
+import ProfilePic from "../../assets/Images/milo.JPG";
 import Icon from "../Icon";
 import githubIcon from "../../assets/Icon/github.svg";
 import linkedinIcon from "../../assets/Icon/linkedin.svg";
