@@ -84,11 +84,12 @@ export default function About() {
             <ScrambleText delay={2}>
               After five years studying Computer Science and Software
               Engineering at university, I developed a strong passion for using
-              technology to benefit society. During this time, I gained hands-on
-              experience through multiple internships, collaborating with
-              diverse teams to build innovative projects. These experiences
-              sharpened my skills in teamwork, communication, and software
-              development. I am committed to continuous learning and leveraging
+              technology to benefit society. As an NCAA Division I and II
+              student-athlete, I also learned discipline, determination, and
+              time management—skills that continue to shape my work ethic.
+              During this time, I gained hands-on experience through multiple
+              internships, collaborating with diverse teams to build innovative
+              projects. I am committed to continuous learning and leveraging
               technology to solve meaningful problems. Thank you for visiting my
               portfolio!
             </ScrambleText>

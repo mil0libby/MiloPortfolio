@@ -87,7 +87,7 @@ export default function Resume() {
                 >
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="./DavidBragg-resume-2023.pdf">
+                <a href="./milolibbyResume.pdf">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>

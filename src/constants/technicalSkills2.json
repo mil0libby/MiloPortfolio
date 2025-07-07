@@ -1,1 +1,10 @@
-["C++", "Java", "Python", "NoSQL"]
+[
+  "React Query",
+  "React Hook Form",
+  "Socket.io",
+  "Express",
+  "SQL",
+  "Jest",
+  "Stripe",
+  "ShadCN UI"
+]

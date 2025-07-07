@@ -23,10 +23,8 @@ function App() {
       <MouseFollower />
       <Header />
       <About />
-      <TechStack />
       <Projects />
       <Resume />
-      <Footer />
     </main>
   );
 }

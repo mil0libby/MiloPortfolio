@@ -8,8 +8,8 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import work1 from "../../assets/Images/work1.png";
-import work2 from "../../assets/Images/work2.png";
-import work3 from "../../assets/Images/work3.png";
+import work2 from "../../assets/Images/workMAI.png";
+import work3 from "../../assets/Images/workQuiz.png";
 
 export default function Projects() {
   const controls = useAnimation();
@@ -29,10 +29,30 @@ export default function Projects() {
 
   const works = [
     {
-      client: "Front End Simplified",
+      client: "QuizMaster (click image for live demo)",
+      year: "2025",
+      img: work3,
+      title: "personal project",
+      link: "https://www.youtube.com/watch?v=cdKRRlEK5rY",
+      detail:
+        "Full-Stack AI Quiz Platform with Real-Time Multiplayer and Live Hosting using OPENAI api and Socket.io.",
+    },
+    {
+      client: "Motivation.ai (click image for live demo)",
+      year: "2025",
+      img: work2,
+      title: "personal project",
+      link: "https://www.youtube.com/watch?v=GAMVKLabJlo",
+      detail:
+        "Responsive web app that uses AI to simulate motivational chats with 30 unique AI characters modeled after iconic figures",
+    },
+
+    {
+      client: "Front End Simplified (click image to go to project)",
       year: "2024",
       img: work1,
       title: "Internship",
+      link: "https://milo-internship.vercel.app/",
       detail:
         "Developed a website for an NFT marketplace e-commerce platform during an internship, gaining hands-on experience in web development and e-commerce.",
     },
@@ -76,12 +96,14 @@ export default function Projects() {
           <div className="projects--grid--content--works">
             {works.map((item, index) => {
               return (
-                <WorkCard
-                  item={item}
-                  key={index}
-                  // delay={0.1 * index + 1}
-                  // controls={controls}
-                />
+                <a href={item.link} target="_">
+                  <WorkCard
+                    item={item}
+                    key={index}
+                    // delay={0.1 * index + 1}
+                    // controls={controls}
+                  />
+                </a>
               );
             })}
           </div>

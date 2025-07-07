@@ -91,7 +91,7 @@ export default function Header() {
           </a>
           <span className="header--hash">{"//"}</span>
           <a
-            href="https://www.linkedin.com/in/milo-libby555/"
+            href="https://www.linkedin.com/in/milo-libby/"
             target={"_blank"}
             rel="noopener noreferrer"
           >
@@ -101,7 +101,7 @@ export default function Header() {
           </a>
           <span className="header--hash">{"//"}</span>
           <a
-            href="./DavidBragg-resume-2023.pdf"
+            href="./milolibbyResume.pdf"
             target={"_blank"}
             rel="noopener noreferrer"
           >
